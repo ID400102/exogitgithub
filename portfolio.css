@@ -1,0 +1,121 @@
+body {
+    background-color: #0e0d13;
+    color: #f7f7f2;
+    padding: 10px;
+    
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.logo {
+    color: #f7f7f2;
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 100px;
+    text-decoration: none; 
+}
+
+.navmenu {
+    display: flex;
+    display: inline-block;
+    margin: 5px;
+    color: #f7f7f2;
+    font-weight: 500;
+    font-size: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin: 10px;
+}
+  
+.navbtn:hover {
+    color: #565661;
+}
+
+.navbtn {
+    padding-left: 60px;
+    color: #f7f7f2;
+    text-decoration: none;
+}
+.home {
+    width: 50%;
+    height: 50px;
+    align-items: center;
+    padding: 150px 200px;
+}
+.homeimg img{
+    width: 240px;
+    height: 360px;
+    position: absolute;
+    top: 150px;
+    left: 920px;
+    border-radius: 100px 50px;
+}
+.hometext h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hometext h3 {
+    position: relative;
+    padding-left: 85px;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.hometext h3::before {
+    content: attr(line);
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: #f7f7f2;
+    left: 0;
+    top: 12px;
+}
+.hometext p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+    display: inline-block;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #1e1e24;
+    border: 1px solid #f7f7f2;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    background: #f7f7f2;
+    text-decoration: none;
+}
+.btn:hover{
+    color: #f7f7f2;
+    background-color: #565661;
+    transition: all 1s;
+}
+.icons {
+    position: absolute;
+    top: 40%;
+    padding: 20px 20px;
+}
+.icons i {
+    display: block;
+    margin: 25px 0;
+    color: #f7f7f2;
+    font-size: 12px;
+    transition: all 1s;
+}
+.icons i:hover {
+    transform: rotate3d(0,0,1,90);
+}
+
+
